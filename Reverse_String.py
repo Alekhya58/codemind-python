@@ -1,3 +1,4 @@
-n=input()
-b=n[::-1]
-print(b)
+a=input()
+arr=list(a.split())
+for i in range(len(arr)-1,-1,-1):
+    print(arr[i],end=" ")
